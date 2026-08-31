@@ -1,0 +1,107 @@
+---
+title: "How to Create a Pick Run in BrickDeck"
+sidebarTitle: "Create a Pick Run"
+description: "Learn how to combine multiple orders into one routed pick run in BrickDeck, so you walk your storage once and sort into customer orders as you go."
+---
+
+A pick run combines multiple customer orders into a single routed walk through your storage. BrickDeck works out every part and quantity needed across all the orders you select, sequences them by where they actually live in your storage, and tells you how many of each part to drop into which order's container as you stand at the location. You arrive at the packing bench with orders already sorted — no second handling pass.
+
+## What this does
+
+A pick run sequences every lot needed across the orders you select, ordered by their real storage location. As you follow the route, BrickDeck shows you the location, the part, and how many to take — split across the orders that need it. You drop the right quantities into each order's container at the drawer. By the time the run is complete, each container holds one customer's order, ready to pack.
+
+## When you'd use it
+
+- When you have several orders ready to fulfil at the same time
+- When you want to walk your storage once instead of once per order
+- At the start of each fulfilment session, before moving to Pack Mode
+
+## How to do it
+
+<Steps>
+  <Step title="Go to Orders">
+    In BrickDeck, open the **Orders** queue. You'll see all your incoming orders from BrickLink, BrickOwl and eBay in one list.
+
+    _\[Screenshot placeholder — add your own screenshot of the Orders queue here\]_
+  </Step>
+  <Step title="Select your orders">
+    Tick the orders you want to include in the run. You can include up to 12 orders in a single pick run.
+
+    <Note>
+      If an order has fewer than 2 lots ready to pick, BrickDeck will flag it. You can still include it in the run or remove it before starting.
+    </Note>
+  </Step>
+  <Step title="Start the pick run">
+    Click **Start pick run**. BrickDeck will sequence the lots by your storage locations and open Pick Mode.
+
+    _\[Screenshot placeholder — add your own screenshot of the Start pick run button here\]_
+  </Step>
+  <Step title="Follow the route">
+    Work through the list. For each lot, BrickDeck shows:
+
+    - The storage location (e.g. A-04-23)
+    - The part name and colour
+    - How many to take, split by order
+
+    Drop the right quantities into each order's container as you go. You do not need to re-sort at the desk afterwards.
+
+    _\[Screenshot placeholder — add your own screenshot of Pick Mode in progress here\]_
+  </Step>
+  <Step title="Complete the run">
+    When all lots are picked, BrickDeck marks the run complete and hands off to Pack Mode. Each order is ready to pack from its container.
+  </Step>
+</Steps>
+
+## Watch
+
+<Note>
+  A walkthrough video will appear here. To embed a responsive video, replace this note with a Mintlify video embed component once your recording is ready.
+</Note>
+
+## Good to know
+
+<Tip>
+  BrickDeck adapts the route to your actual storage layout — you do not need to reorganise your warehouse to use pick runs. Drawers, tubs, bags, boxes and mixed systems are all supported.
+</Tip>
+
+<Note>
+  Firefly, BrickDeck's light-guided picking hardware, is in development. It extends pick runs into the physical warehouse by illuminating the correct customer bin as you pick each part. You do not need Firefly to use pick runs today — Pick Mode works entirely on screen.
+</Note>
+
+## If it isn't working
+
+<AccordionGroup>
+  <Accordion title="The pick run button isn't appearing">
+    Check that at least one order is selected and that all selected orders have inventory with known storage locations. Orders without any located lots cannot be included in a routed run.
+  </Accordion>
+
+  <Accordion title="A lot is missing from my run">
+    The lot may not have a storage location assigned. Go to **Inventory** and confirm the lot has a location in your storage system. Once a location is set, it will appear in future pick runs.
+  </Accordion>
+
+  <Accordion title="The run isn't showing the right sequence">
+    BrickDeck sequences lots based on the storage locations you have set up. If the order looks unexpected, check that your storage locations are entered consistently in the Storage and Location Planner.
+  </Accordion>
+</AccordionGroup>
+
+## Related articles
+
+<CardGroup cols={2}>
+  <Card title="Picking Overview" icon="hand" href="/picking">
+    Back to all picking articles.
+  </Card>
+
+  <Card title="Contact Support" icon="life-ring" href="/support/contact">
+    Get in touch if something isn't working.
+  </Card>
+</CardGroup>
+
+---
+
+**Was this helpful?**
+
+Let us know — your feedback helps improve these guides.
+
+<Card title="Still stuck? Contact support" icon="life-ring" href="/support/contact">
+  Send us a message and we'll help.
+</Card>

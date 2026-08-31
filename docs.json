@@ -1,0 +1,218 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "aspen",
+  "name": "BrickDeck Help Centre",
+  "colors": {
+    "primary": "#4ecdc4",
+    "light": "#4ecdc4",
+    "dark": "#1a535c"
+  },
+  "favicon": {
+    "light": "/images/Favicon.svg",
+    "dark": "/images/Favicon_Dark.svg"
+  },
+  "navigation": {
+    "pages": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "group": "Getting Started",
+        "icon": "rocket",
+        "pages": [
+          "getting-started/index"
+        ]
+      },
+      {
+        "group": "Orders",
+        "icon": "inbox",
+        "pages": [
+          "orders/index"
+        ]
+      },
+      {
+        "group": "Picking",
+        "icon": "hand",
+        "pages": [
+          "picking/index",
+          "picking/how-to-create-a-pick-run"
+        ]
+      },
+      {
+        "group": "Packing & Shipping",
+        "icon": "box",
+        "pages": [
+          "packing-shipping/index"
+        ]
+      },
+      {
+        "group": "Inventory & Storage",
+        "icon": "warehouse",
+        "pages": [
+          "inventory-storage/index"
+        ]
+      },
+      {
+        "group": "Oracle",
+        "icon": "chart-line",
+        "pages": [
+          "oracle/index"
+        ]
+      },
+      {
+        "group": "Account & Settings",
+        "icon": "gear",
+        "pages": [
+          "account-settings/index"
+        ]
+      },
+      {
+        "group": "Troubleshooting",
+        "icon": "wrench",
+        "pages": [
+          "troubleshooting/index"
+        ]
+      },
+      {
+        "group": "Roadmap",
+        "icon": "map",
+        "pages": [
+          "roadmap/index"
+        ]
+      },
+      {
+        "group": "Reference",
+        "icon": "book-open",
+        "pages": [
+          "reference/glossary"
+        ]
+      },
+      {
+        "group": "Support",
+        "icon": "life-ring",
+        "pages": [
+          "support/contact"
+        ]
+      },
+      {
+        "group": "Roadmap",
+        "pages": [
+          "roadmap/index"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/images/BD_Logo_Inline_Cropped_Strong_Cyan.svg",
+    "dark": "/images/BD_Logo_Inline_Cropped_Dark_Teal.svg",
+    "href": "https://help.brickdeck.app/"
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "https://app.brickdeck.app",
+        "label": "Sign In"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Contact support",
+      "href": "/support/contact"
+    }
+  },
+  "footer": {
+    "links": [
+      {
+        "header": "BrickDeck",
+        "items": [
+          {
+            "label": "Website",
+            "href": "https://brickdeck.app"
+          },
+          {
+            "label": "Application",
+            "href": "https://app.brickdeck.app"
+          },
+          {
+            "label": "Privacy policy",
+            "href": "https://brickdeck.app/privacy"
+          },
+          {
+            "label": "Terms of service",
+            "href": "https://brickdeck.app/terms"
+          },
+          {
+            "label": "Cookie policy",
+            "href": "https://brickdeck.app/cookies"
+          }
+        ]
+      },
+      {
+        "header": "Help Centre",
+        "items": [
+          {
+            "label": "Getting started",
+            "href": "/getting-started"
+          },
+          {
+            "label": "Glossary",
+            "href": "/reference/glossary"
+          },
+          {
+            "label": "Contact support",
+            "href": "/support/contact"
+          }
+        ]
+      }
+    ]
+  },
+  "styling": {
+    "eyebrows": "section"
+  },
+  "fonts": {
+    "family": "Inter",
+    "weight": 400
+  },
+  "background": {
+    "decoration": "grid",
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#1a535c"
+    }
+  },
+  "appearance": {
+    "default": "light",
+    "strict": true
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "search": {
+    "prompt": "Search BrickDeck Help . . . "
+  },
+  "description": "Practical step-by-step help for using BrickDeck, including orders, inventory, picking, packing, shipping, Oracle, integrations and account settings.",
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "We can't find that page",
+      "description": "The page you're looking for may have moved or no longer exists. Try searching the BrickDeck Help Centre, or head back to the homepage"
+    }
+  },
+  "variables": {
+    "productName": "BrickDeck",
+    "appUrl": "https://app.brickdeck.app",
+    "marketingUrl": "https://brickdeck.app",
+    "supportEmail": "support@brickdeck.app",
+    "oracleName": "Oracle",
+    "fireflyName": "Firefly"
+  }
+}
