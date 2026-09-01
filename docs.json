@@ -3,9 +3,9 @@
   "theme": "aspen",
   "name": "BrickDeck Help Centre",
   "colors": {
-    "primary": "#02837D",
-    "light": "#4ECDC4",
-    "dark": "#02837D"
+    "primary": "#4ecdc4",
+    "light": "#4ecdc4",
+    "dark": "#1a535c"
   },
   "favicon": {
     "light": "/images/Favicon.svg",
@@ -99,6 +99,12 @@
         "pages": [
           "support/contact"
         ]
+      },
+      {
+        "group": "Roadmap",
+        "pages": [
+          "roadmap/index"
+        ]
       }
     ]
   },
@@ -167,22 +173,17 @@
     ]
   },
   "styling": {
-    "eyebrows": "breadcrumbs"
+    "eyebrows": "section"
   },
   "fonts": {
-    "heading": {
-      "family": "Manrope",
-      "weight": 600
-    },
-    "body": {
-      "family": "Inter",
-      "weight": 400
-    }
+    "family": "Inter",
+    "weight": 400
   },
   "background": {
+    "decoration": "grid",
     "color": {
       "light": "#FFFFFF",
-      "dark": "#0B2E33"
+      "dark": "#1a535c"
     }
   },
   "appearance": {
