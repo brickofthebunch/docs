@@ -54,7 +54,14 @@ img.nav-logo { height: 2rem !important; width: auto !important; }
 /* Sidebar */
 #sidebar { background: var(--bd-teal-deep); border-right: 1px solid rgba(78,205,196,0.12); }
 #sidebar-content { background: var(--bd-teal-deep); }
-sidebar-group-header { color: var(--bd-teal-accent); font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.65; }
+sidebar-group-header {
+  color: #FFFFFF !important;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 1;
+}
 sidebar-group-icon { color: var(--bd-teal-accent); opacity: 0.7; }
 #sidebar-content a { color: rgba(247,255,247,0.75); font-size: 0.875rem; font-weight: 400; border-radius: var(--bd-radius-sm); transition: background 0.12s ease, color 0.12s ease; }
 #sidebar-content a:hover { background: rgba(78,205,196,0.10); color: var(--bd-fg-primary); text-decoration: none; }
